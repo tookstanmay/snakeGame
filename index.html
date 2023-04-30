@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- linking favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+    
+    <div class="body">
+        <div class="headingContainer">
+            <h1 id="mainHeading">Score 0</h1>
+            <h2 id="highScore">High Score 0</h2>
+        </div>
+        <div class="boardContainer">
+            <div id="board">
+    
+            </div>
+        </div>
+        <!-- <img id="snakeImage" src="./images/snake.png" alt="snake_image"> -->
+        <div class="buttonFlexContainer">
+            <div class="controlIcons">
+                <div class="arrowUpDiv">
+                    <button class="arrows" id="arrowUp"></button>
+                </div>
+                <div class="arrowRightLeftDiv">
+                    <button class="arrows" id="arrowLeft"></button>
+                    <button class="arrows" id="arrowRight"></button>
+                </div>
+                <div class="arrowDownDiv">
+                    <button class="arrows" id="arrowDown"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="./snake.js"></script>
+</html>
